@@ -1,0 +1,3 @@
+C:/Users/nikit/2quest/cmake-build-debug/CMakeFiles/2quest.dir
+C:/Users/nikit/2quest/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nikit/2quest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
