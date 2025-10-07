@@ -5,11 +5,12 @@
 #include <iostream>
 #include <cmath>  // используем математические функции
 
+using namespace std;
 
 void Calculator::input(){
 
-    std::cout << "Enter:  x, y, z: ";
-    std::cin >> x >> y >> z;
+    cout << "Enter:  x, y, z: ";
+    cin >> x >> y >> z;
 
 }
 
@@ -18,7 +19,7 @@ double Calculator::Calculate_A() {
 
 
     // Вычисление a
-    return y + (x / (pow(y, 2) + std::abs(pow(x, 2) / (y + pow(x, 3) / 3.0))));
+    return y + (x / (pow(y, 2) + abs(pow(x, 2) / (y + pow(x, 3) / 3.0))));
 
 }
 
@@ -29,5 +30,6 @@ double Calculator::Calculate_B() {
     return (1 + pow(tan(z/2),2));
 
 }
+
 
 
