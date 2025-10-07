@@ -3,12 +3,13 @@
 //Главный файл
 #include <iostream>
 #include "Z11g.h"  // подключаем заголовок
+using namespace std;
 
 int main() {
     // Создаём объект класса Calculator
     Calculator calc;
     calc.input();
-    std::cout << "a = " << calc.Calculate_A() << std::endl; //endl - /n, отправка данных в консоль
-    std::cout << " b = " << calc.Calculate_B() << std::endl;
+    cout << "a = " << calc.Calculate_A() << endl; //endl - /n, отправка данных в консоль
+    cout << " b = " << calc.Calculate_B() << endl;
     return 0;
 }
