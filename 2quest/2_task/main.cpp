@@ -1,3 +1,4 @@
+//Программа вычисляет значение произведения из формулы 136н https://ivtipm.github.io/Programming/Glava06/index06.htm
 #include <iostream>
 #include <vector>
 #include <string>
@@ -10,7 +11,7 @@ using namespace std;
 int main() {
 
     vector<double> numbers_a;
-
+    //переменная для ответов на вопрос y/n
     char question;
 
     cout << "Entering data from a file? Y/N: ";
@@ -28,11 +29,12 @@ int main() {
         // генерируем случайныt числа в файл
             random_numbers(filename, numbers_size);
             }
+
             // Читаем данные из файла
             numbers_a = Massive_from_file(filename);
         }
 
-
+    //try перенести в main под функцию
     
     // Вычисляем результат по формуле 136н
     double answer = CalculateFromMassive(numbers_a);
